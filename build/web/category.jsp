@@ -19,24 +19,20 @@
                 <div id="widgetBar">
 
                     <div class="headerWidget">
-                        [ language toggle ]
+                        <a href="index.jsp">English</a>|<a href="koreanCategory.jsp">Korean</a>
                     </div>
 
                     <div class="headerWidget">
-                        [ checkout button ]
-                    </div>
-
-                    <div class="headerWidget">
-                        [ shopping cart widget ]
+                        <a href="index.jsp">Home</a>
                     </div>
 
                 </div>
 
-                <a href="#">
-                    <img src="#" id="logo" alt="Affable Bean logo">
+                <a href="index.jsp">
+                    <img src="includes/bean.png" id="logo" alt="Affable Bean logo">
                 </a>
 
-                <img src="#" id="logoText" alt="the affable bean">
+                <h1>the affable bean</h1>
             </div>
 
             <div id="categoryLeftColumn">
@@ -44,21 +40,21 @@
                     <span class="categoryText">dairy</span>
                 </div>
 
-                <a href="#" class="categoryButton">
+                <a href="category2.jsp" class="categoryButton">
                     <span class="categoryText">meats</span>
                 </a>
 
-                <a href="#" class="categoryButton">
+                <a href="category3.jsp" class="categoryButton">
                     <span class="categoryText">bakery</span>
                 </a>
 
-                <a href="#" class="categoryButton">
+                <a href="category4.jsp" class="categoryButton">
                     <span class="categoryText">fruit & veg</span>
                 </a>
             </div>
 
             <div id="categoryRightColumn">
-                <p id="categoryTitle">[ selected category ]</p>
+                <p id="categoryTitle">Dairy</p>
 
                 <table id="productTable">
                     <tr>
@@ -133,7 +129,7 @@
 
             <div id="footer">
                 <hr>
-                <p id="footerText">[ footer text ]</p>
+                <p id="footerText">Software Development and Design | Group 2</p>
             </div>
         </div>
         

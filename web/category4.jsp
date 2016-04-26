@@ -19,7 +19,7 @@
                 <div id="widgetBar">
 
                     <div class="headerWidget">
-                        <a href="index.jsp">English</a>|<a href="koreanCategory.jsp">Korean</a>
+                        <a href="index.jsp">English</a>|<a href="koreanCategory4.jsp">Korean</a>
                     </div>
 
                     <div class="headerWidget">
@@ -36,10 +36,10 @@
             </div>
 
             <div id="categoryLeftColumn">
-                <div class="categoryButton" id="selectedCategory">
+                <a href="category.jsp" class="categoryButton">
                     <span class="categoryText">dairy</span>
-                </div>
-
+                </a>
+                
                 <a href="category2.jsp" class="categoryButton">
                     <span class="categoryText">meats</span>
                 </a>
@@ -48,13 +48,13 @@
                     <span class="categoryText">bakery</span>
                 </a>
 
-                <a href="category4.jsp" class="categoryButton">
+                <div class="categoryButton" id="selectedCategory">
                     <span class="categoryText">fruit & veg</span>
-                </a>
+                </div>
             </div>
 
             <div id="categoryRightColumn">
-                <p id="categoryTitle">Dairy</p>
+                <p id="categoryTitle">Fruit and Vegetables</p>
 
                 <table id="productTable">
                     <tr>

@@ -12,48 +12,44 @@
                 <div id="widgetBar">
 
                     <div class="headerWidget">
-                        [ language toggle ]
-                    </div>
-
-                    <div class="headerWidget"></div>
-
-                    <div class="headerWidget">
-                        [ shopping cart widget ]
+                        <a href="index.jsp">English</a>|<a href="koreanIndex.jsp">Korean</a>
                     </div>
 
                 </div>
 
-                <a href="#">
-                    <img src="#" id="logo" alt="Affable Bean logo">
+                <a href="index.jsp">
+                    <img src="includes/bean.png" id="logo" alt="Affable Bean logo">
                 </a>
 
-                <img src="#" id="logoText" alt="the affable bean">
+                <h1>the affable bean</h1>
             </div>
 
             <div id="indexLeftColumn">
                 <div id="welcomeText">
-                    <p>[ welcome text ]</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis hendrerit dui. Donec placerat venenatis dignissim. Etiam blandit imperdiet lorem ac tincidunt. Aenean efficitur, leo ultricies posuere porta, nunc lacus dictum magna, sed imperdiet lectus orci non sapien. Sed convallis augue ut mi rhoncus commodo. Nam blandit laoreet nisi, in varius lacus laoreet in. Donec ornare ultrices congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut maximus ante. Nam tincidunt ligula a quam elementum, sed tincidunt lacus scelerisque. Integer pretium, justo a mattis blandit, lorem sapien malesuada sem, vel semper erat massa eu urna. Maecenas vitae aliquam velit. Cras sed nulla sed eros ullamcorper tincidunt id in leo. Etiam sodales mauris est, a dignissim arcu viverra eget. Aliquam erat volutpat. 
+                    </p>
+                    
                 </div>
             </div>
 
             <div id="indexRightColumn">
                 <div class="categoryBox">
-                    <a href="cart.jsp">
+                    <a href="category.jsp">
                         <span class="categoryLabelText">dairy</span>
                     </a>
                 </div>
                 <div class="categoryBox">
-                    <a href="category.jsp">
+                    <a href="category2.jsp">
                         <span class="categoryLabelText">meats</span>
                     </a>
                 </div>
                 <div class="categoryBox">
-                    <a href="checkout.jsp">
+                    <a href="category3.jsp">
                         <span class="categoryLabelText">bakery</span>
                     </a>
                 </div>
                 <div class="categoryBox">
-                    <a href="confirmation.jsp">
+                    <a href="category4.jsp">
                         <span class="categoryLabelText">fruit & veg</span>
                     </a>
                 </div>
@@ -61,7 +57,7 @@
 
             <div id="footer">
                 <hr>
-                <p id="footerText">[ footer text ]</p>
+                <p id="footerText">Software Development and Design | Group 2</p>
             </div>
         </div>
     </body>
