@@ -7,64 +7,62 @@
         <title>Group 2: Project Part 2 Index</title>
     </head>
     <body>
-    <div id="main">
-        <div id="header">
-            
-            <div id="widgetBar">
-                <div class="headerWidget">
-                    [ language toggle ]
+          <div id="main">
+            <div id="header">
+                <div id="widgetBar">
+
+                    <div class="headerWidget">
+                        [ language toggle ]
+                    </div>
+
+                    <div class="headerWidget"></div>
+
+                    <div class="headerWidget">
+                        [ shopping cart widget ]
+                    </div>
+
                 </div>
 
-                <div class="headerWidget">
-                    [shopping cart widget]
+                <a href="#">
+                    <img src="#" id="logo" alt="Affable Bean logo">
+                </a>
+
+                <img src="#" id="logoText" alt="the affable bean">
+            </div>
+
+            <div id="indexLeftColumn">
+                <div id="welcomeText">
+                    <p>[ welcome text ]</p>
                 </div>
-                
             </div>
-            
-            <a href="#"
-               <img src="#" id="logo" alt="Affable Bean Logo">
-            </a>
-            
-            <img src="#" id="logoText" alt="the affable bean">
-            
-        </div>    
-        
-        <div id="indexLeftColumn">
-            <div id="welcomeText">
-                <p>[ welcome text ]</p>
+
+            <div id="indexRightColumn">
+                <div class="categoryBox">
+                    <a href="cart.jsp">
+                        <span class="categoryLabelText">dairy</span>
+                    </a>
+                </div>
+                <div class="categoryBox">
+                    <a href="category.jsp">
+                        <span class="categoryLabelText">meats</span>
+                    </a>
+                </div>
+                <div class="categoryBox">
+                    <a href="checkout.jsp">
+                        <span class="categoryLabelText">bakery</span>
+                    </a>
+                </div>
+                <div class="categoryBox">
+                    <a href="confirmation.jsp">
+                        <span class="categoryLabelText">fruit & veg</span>
+                    </a>
+                </div>
             </div>
-        </div>
-        
-        <div id="indexRightColumn">
-             <div class="categoryBox">
-                <a href="cart.jsp">
-                    <span class="categoryLabelText">dairy</span>
-                </a>
-            </div>
-            
-            <div class="categoryBox">
-                <a href="category.jsp">
-                    <span class="categoryLabelText">meats</span>
-                </a>
-            </div>
-            
-            <div class="categoryBox">
-                <a href="checkout.jsp">
-                    <span class="categoryLabelText">bakery</span>
-                </a>
-            </div>
-            
-            <div class="categoryBox">
-                <a href="confirmation.jsp">
-                    <span class="categoryLabelText">fruit and veg</span>
-                </a>
+
+            <div id="footer">
+                <hr>
+                <p id="footerText">[ footer text ]</p>
             </div>
         </div>
-        
-        <div id="footer">
-            <hr>
-            <p id="footerText">[ footer text ]</p>
-        </div>
-    </div>
     </body>
 </html>
