@@ -23,15 +23,15 @@
                </div>
            </div>
            
-           <a href="/category2" class="categoryButton">
+           <a href="category2" class="categoryButton">
                <span class="categoryText">meats</span>
            </a>
            
-           <a href="/category3" class="categoryButton">
+           <a href="category3" class="categoryButton">
                <span class="categoryText">bakery</span>
            </a>
            
-           <a href="/category4" class="categoryButton">
+           <a href="category4" class="categoryButton">
                <span class="categoryText">fruit and veg</span>
            </a>
        </div>

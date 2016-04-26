@@ -36,11 +36,11 @@
             </div>
 
             <div id="categoryLeftColumn">
-                <a href="category.jsp" class="categoryButton">
+                <a href="category1" class="categoryButton">
                     <span class="categoryText">dairy</span>
                 </a>
                 
-                <a href="category2.jsp" class="categoryButton">
+                <a href="category2" class="categoryButton">
                     <span class="categoryText">meats</span>
                 </a>
 
@@ -48,7 +48,7 @@
                     <span class="categoryText">bakery</span>
                 </div>
 
-                <a href="category4.jsp" class="categoryButton">
+                <a href="category4" class="categoryButton">
                     <span class="categoryText">fruit & veg</span>
                 </a>
             </div>

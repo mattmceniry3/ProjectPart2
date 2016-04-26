@@ -36,15 +36,15 @@
             </div>
 
             <div id="categoryLeftColumn">
-                <a href="category.jsp" class="categoryButton">
+                <a href="category1" class="categoryButton">
                     <span class="categoryText">dairy</span>
                 </a>
                 
-                <a href="category2.jsp" class="categoryButton">
+                <a href="category2" class="categoryButton">
                     <span class="categoryText">meats</span>
                 </a>
 
-                <a href="category3.jsp" class="categoryButton">
+                <a href="category3" class="categoryButton">
                     <span class="categoryText">bakery</span>
                 </a>
 
