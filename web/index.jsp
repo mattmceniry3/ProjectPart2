@@ -34,26 +34,26 @@
 
             <div id="indexRightColumn">
                 <div class="categoryBox">
-                    <a href="category.jsp">
+                    <a href="category1">
                         <span class="categoryLabelText">dairy</span>
                     </a>
                 </div>
                 <div class="categoryBox">
-                    <a href="category2.jsp">
-                        <span class="categoryLabelText">meats</span>
-                    </a>
-                </div>
-                <div class="categoryBox">
-                    <a href="category3.jsp">
+                    <a href="category2">
                         <span class="categoryLabelText">bakery</span>
                     </a>
                 </div>
                 <div class="categoryBox">
-                    <a href="category4.jsp">
+                    <a href="category3">
+                        <span class="categoryLabelText">meats</span>
+                    </a>
+                </div>
+                <div class="categoryBox">
+                    <a href="category4">
                         <span class="categoryLabelText">fruit & veg</span>
                     </a>
                 </div>
-            </div>
+            </div> 
 
             <div id="footer">
                 <hr>

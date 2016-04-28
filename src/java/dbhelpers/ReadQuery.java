@@ -56,7 +56,7 @@ public class ReadQuery {
     public void doRead(){
         
         try {
-            String query = "SELECT * FROM PRODUCT INNER JOIN CATEGORY ON PRODUCT.CATEGORYID;";
+            String query = "SELECT * FROM PRODUCT INNER JOIN CATEGORY ON PRODUCT.CATEGORYID ORDER BY ProductID ASC;";
             
             
             PreparedStatement ps = conn.prepareStatement(query);
