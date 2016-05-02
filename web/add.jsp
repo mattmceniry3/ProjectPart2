@@ -48,7 +48,7 @@
             <br>            
             
             <input type="submit" name="submit" value="Submit" />
-            <a href="http://localhost:8080/GroupProject/index"> Back to Products </a><br><br>
+            <a href="index.jsp"> Back to Products </a><br><br>
            
         </form>
 
