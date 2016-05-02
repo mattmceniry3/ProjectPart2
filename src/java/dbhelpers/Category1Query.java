@@ -72,18 +72,14 @@ public class Category1Query {
         
         try {
             while(this.results.next()){
-                
                 Product product = new Product();
-                product.setProductID(this.results.getInt("productID"));
                 product.setName(this.results.getString("name"));
                 product.setPrice(this.results.getDouble("price"));
                 product.setDescription(this.results.getString("description"));
-                product.setCategoryID(this.results.getInt("categoryID"));
+
                 
                 table += "<tr>";
-                table += "<td>";
-                table += product.getProductID();
-                table += "</td>";
+
                
                 table += "<td>";
                 table += product.getName();
@@ -92,17 +88,18 @@ public class Category1Query {
                 table += "<td>";
                 table += product.getPrice();
                 table += "</td>";
+                table += "</tr>";
+                table += "<tr>";
                 
                 table += "<td>";
                 table += product.getDescription();
                 table += "</td>";
                 
                 
-                table += "<td>";
-                table += product.getCategoryID();
-                table += "</td>";  
+ 
                 
-                table += "</tr>";
+                table += "</tr>"; 
+                
             }
         } catch (SQLException ex) {
             Logger.getLogger(Category1Query.class.getName()).log(Level.SEVERE, null, ex);

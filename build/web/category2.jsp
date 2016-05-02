@@ -19,6 +19,9 @@
             <div id="header">
                 <div id="widgetBar">
 
+                        <div class="headerWidget">
+                        <a href="add.jsp">Add a Product</a>
+                    </div>
                     <div class="headerWidget">
                         <a href="index.jsp">English</a>|<a href="koreanCategory2.jsp">Korean</a>
                     </div>
@@ -63,7 +66,7 @@
             </div>
 
             <div id="footer">
-                <hr>
+                <hr><p><a href ="add.jsp">Add a New Product</a> <br> <br>
                 <p id="footerText">Software Development and Design | Group 2</p>
             </div>
         </div>
