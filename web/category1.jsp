@@ -49,6 +49,9 @@
                 <a href="category4" class="categoryButton">
                     <span class="categoryText">fruit & veg</span>
                 </a>
+                <a href="viewAllProducts" class="categoryButton">
+                    <span class="categoryText">view all products</span>
+                </a>
             </div>
 
             <div id="categoryRightColumn">

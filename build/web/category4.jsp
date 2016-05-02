@@ -52,10 +52,14 @@
                 <a href="category3" class="categoryButton">
                     <span class="categoryText">meats</span>
                 </a>
+                
 
                 <div class="categoryButton" id="selectedCategory">
                     <span class="categoryText">fruit & veg</span>
                 </div>
+                <a href="viewAllProducts" class="categoryButton">
+                    <span class="categoryText">view all products</span>
+                </a>
             </div>
 
             <div id="categoryRightColumn">
