@@ -366,4 +366,7 @@ td{
         padding: 1px;
         background-color: #FFFFFF;
         color: #696969;
+}input[readonly] {
+    background-color: #4D025D;
+    color: #CCCCCC;
 }
