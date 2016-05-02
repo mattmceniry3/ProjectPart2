@@ -98,7 +98,7 @@ public class UpdateServlet extends HttpServlet {
         uq.doUpdate(product);
         
         //pass control to the ReadServlet
-        String url = "/read";
+        String url = "/viewAllProducts";
         
         RequestDispatcher dispatcher = request.getRequestDispatcher(url);
         dispatcher.forward(request, response);
