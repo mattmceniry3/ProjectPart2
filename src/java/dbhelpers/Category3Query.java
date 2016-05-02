@@ -69,7 +69,11 @@ public class Category3Query {
         String table = "";
         
         table += "<table border=1>";
-        
+                        table += "<tr>";
+                table += "<th>Product</th>";
+                table += "<th>Price ($)</th>";
+                table += "<th>  </th>";
+                table += "</tr>";
         try {
             while(this.results.next()){
                 
@@ -80,7 +84,7 @@ public class Category3Query {
                 product.setDescription(this.results.getString("description"));
 
                 
-                table += "<tr>";
+                    table += "<tr>";
 
                
                 table += "<td>";
@@ -91,17 +95,21 @@ public class Category3Query {
                 table += product.getPrice();
                 table += "</td>";
                 
-                table += "</tr>";
+                table += "<td>";
+table += "<a href=addtocart?productID=" + product.getProductID()+ "> Add to Cart </a>" ;                table += "</td>";
                 
+                table += "</tr>";
                 table += "<tr>";
                 
                 table += "<td>";
                 table += product.getDescription();
                 table += "</td>";
                 
-            
                 
-                table += "</tr>";
+                
+ 
+                
+                table += "</tr>"; 
             }
         } catch (SQLException ex) {
             Logger.getLogger(Category3Query.class.getName()).log(Level.SEVERE, null, ex);

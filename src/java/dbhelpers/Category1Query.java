@@ -69,6 +69,11 @@ public class Category1Query {
         String table = "";
         
         table += "<table border=1>";
+                        table += "<tr>";
+                table += "<th>Product</th>";
+                table += "<th>Price ($)</th>";
+                table += "<th>  </th>";
+                table += "</tr>";
         
         try {
             while(this.results.next()){
@@ -88,6 +93,10 @@ public class Category1Query {
                 table += "<td>";
                 table += product.getPrice();
                 table += "</td>";
+                
+                table += "<td>";
+table += "<a href=addtocart?productID=" + product.getProductID()+ "> Add to Cart </a>" ;                table += "</td>";
+                
                 table += "</tr>";
                 table += "<tr>";
                 
@@ -96,9 +105,11 @@ public class Category1Query {
                 table += "</td>";
                 
                 
+                
  
                 
                 table += "</tr>"; 
+                
                 
             }
         } catch (SQLException ex) {
